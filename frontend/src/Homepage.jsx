@@ -7,7 +7,7 @@ const HomePage = () => {
   useEffect(() => {
     async function getPhotos() {
       try {
-      const res = await fetch("http://localhost:3000/photos");
+      const res = await fetch("https://photo-gallery-dj22.onrender.com/photos");
 
         const data = await res.json();
 
